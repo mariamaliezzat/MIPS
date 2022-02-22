@@ -1,0 +1,35 @@
+module Register_File (
+                       input [31:0] WD3,
+                       input [4:0] A1,
+                       input [4:0] A2,
+                       input [4:0] A3,
+                       input reset_b,
+                       input clk,
+                       output [31:0] RD1,
+                       output [31:0] RD2
+);
+
+reg [31:0] register_file [99:0];
+reg WE3;
+
+always@(posedge clk)
+
+begin
+if(reset_b)
+begin
+if(WD3==1)
+register_file[A3] <= WD3;
+end
+else
+register_file <=0;
+
+end
+
+
+assign RD1=register_file[A1];
+assign RD2=register_file[A2];
+
+
+
+
+endmodule
