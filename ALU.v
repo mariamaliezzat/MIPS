@@ -1,3 +1,4 @@
+`timescale 1ns/1ns
 module ALU_32bit (
                   input [31:0] Src1,
                   input [31:0] Src2,

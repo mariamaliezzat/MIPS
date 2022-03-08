@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/Mohamed Ezzat/Desktop/digital diploma/modelsim
 vALU_32bit
-Z0 !s110 1645556082
+Z0 !s110 1645635356
 !i10b 1
 !s100 BF4]XX>INPI`gK?N[13b]0
 IYSPjMoBkeD_J?UK7b6^RD2
@@ -23,12 +23,12 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1645556081.000000
+Z4 !s108 1645635356.000000
 !s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 n@a@l@u_32bit
 vProgram_Counter
 R0
@@ -45,15 +45,15 @@ R3
 r1
 !s85 0
 31
-Z6 !s108 1645556082.000000
+R4
 !s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v|
 !i113 1
-R4
 R5
+R6
 n@program_@counter
 vRegister_File
-!s110 1645557659
+!s110 1645635357
 !i10b 1
 !s100 BC;848>=lLA;:7Q5Z7M3K0
 ISd1C_S4E[Y[Z1d3G1LnaI0
@@ -67,21 +67,42 @@ R3
 r1
 !s85 0
 31
-!s108 1645557659.000000
+!s108 1645635357.000000
 !s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v|
 !i113 1
-R4
 R5
+R6
 n@register_@file
-vtb_ALU_32
-R0
+vsign_extend
+!s110 1645650579
 !i10b 1
-!s100 MkgVjE^0iaQhFc_oaO11W0
-IQ65eMOgL1h;loa^HLAMKJ1
+!s100 XbTZjk18hHfCoJAh16:na3
+I;d>IM5zVdfDcXob_?E^o?2
 R1
 R2
-w1645554429
+w1645650568
+8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v
+FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1645650579.000000
+!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v|
+!i113 1
+R5
+R6
+vtb_ALU_32
+!s110 1645704965
+!i10b 1
+!s100 4Vke`7@=ID<86:eULk0?E0
+IR`1`IRV_Z2ET?8;7:MXHn2
+R1
+R2
+w1645704943
 8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v
 FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v
 L0 1
@@ -89,12 +110,12 @@ R3
 r1
 !s85 0
 31
-R6
+!s108 1645704965.000000
 !s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v|
 !i113 1
-R4
 R5
+R6
 ntb_@a@l@u_32
 vtb_Program_Counter
 R0
@@ -111,10 +132,10 @@ R3
 r1
 !s85 0
 31
-R6
+R4
 !s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v|
 !i113 1
-R4
 R5
+R6
 ntb_@program_@counter

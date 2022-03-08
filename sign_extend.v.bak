@@ -1,0 +1,15 @@
+module sign_extend(
+                    input [15:0] Instr,
+                    output [31:0] SignImm
+);
+integer x;
+always@(*)
+begin
+
+for(x=16;x<32;x=x+1)
+SignImm[x]=Instr[15];
+
+
+end
+
+endmodule

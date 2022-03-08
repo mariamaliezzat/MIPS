@@ -6,7 +6,8 @@ module ALU_32bit (
                   output Zero_Flag
 );
 
-
+always@(*)
+begin
 case(ALU_Control)
 3'b000 : begin
          ALU_Result = Src1 && Src2 ;
@@ -32,6 +33,7 @@ default : begin
          end
 
 endcase
+end
 assign Zero_Flag = ~(|ALU_Result);
 
 endmodule
