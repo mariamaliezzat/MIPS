@@ -7,135 +7,129 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/Mohamed Ezzat/Desktop/digital diploma/modelsim
-vALU_32bit
-Z0 !s110 1645635356
+Z0 dC:/Users/Mohamed Ezzat/Desktop/MIPS
+vAdder
+!s110 1645705237
 !i10b 1
-!s100 BF4]XX>INPI`gK?N[13b]0
-IYSPjMoBkeD_J?UK7b6^RD2
+!s100 55N5:YEUHY`bbaQn_cLIe2
+I;@jHT42I>5e3j6I05?AWT2
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/Mohamed Ezzat/Desktop/MIPS Project
-w1645553509
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v
+R0
+w1645705210
+8.\Adder.v
+F.\Adder.v
 L0 1
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1645635356.000000
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/ALU.v|
+!s108 1645705237.000000
+!s107 .\Adder.v|
+!s90 .\Adder.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z3 tCvgOpt 0
+n@adder
+vALU_32bit
+!s110 1645705174
+!i10b 1
+!s100 @cXlYVU6N1<ZVe]Pm67CU2
+IR^ic?aVG5;GF;55aO_5gh2
+R1
+R0
+w1645690716
+8.\ALU.v
+F.\ALU.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1645705174.000000
+!s107 .\ALU.v|
+!s90 .\ALU.v|
+!i113 1
+R3
 n@a@l@u_32bit
-vProgram_Counter
+vMux2_1
+!s110 1645773616
+!i10b 1
+!s100 1]Nn[9^HRjiL<V5]KHlbS0
+I?8?g^I`>M5ZRK<34m70oD3
+R1
 R0
-!i10b 1
-!s100 YD0lVbd^9NCzXmJ5LBIKM3
-IWK4e3KGQGD2aXX4m4JmNN0
-R1
-R2
-w1645556077
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v
+w1645773612
+8.\Mux2_1.v
+F.\Mux2_1.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Program_Counter.v|
+!s108 1645773616.000000
+!s107 .\Mux2_1.v|
+!s90 .\Mux2_1.v|
 !i113 1
-R5
-R6
-n@program_@counter
-vRegister_File
-!s110 1645635357
-!i10b 1
-!s100 BC;848>=lLA;:7Q5Z7M3K0
-ISd1C_S4E[Y[Z1d3G1LnaI0
-R1
-R2
-w1645557654
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v
-L0 1
 R3
+n@mux2_1
+vshift_left_twice
+!s110 1645773864
+!i10b 1
+!s100 e6FRTTbF`Ee?6G`^F:`EA1
+IQ?c=U=GL1>MQ@GEXa?A0L2
+R1
+R0
+w1645773819
+8.\shift_left_twice.v
+F.\shift_left_twice.v
+L0 2
+R2
 r1
 !s85 0
 31
-!s108 1645635357.000000
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/Register_File.v|
+!s108 1645773864.000000
+!s107 .\shift_left_twice.v|
+!s90 .\shift_left_twice.v|
 !i113 1
-R5
-R6
-n@register_@file
+R3
 vsign_extend
-!s110 1645650579
+!s110 1645860997
 !i10b 1
-!s100 XbTZjk18hHfCoJAh16:na3
-I;d>IM5zVdfDcXob_?E^o?2
+!s100 @XmeIR@Y0UQLim__FNe6E3
+IN_b^:NFaW065iG6z^Jc@A1
 R1
-R2
-w1645650568
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1645650579.000000
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/sign_extend.v|
-!i113 1
-R5
-R6
-vtb_ALU_32
-!s110 1645704965
-!i10b 1
-!s100 4Vke`7@=ID<86:eULk0?E0
-IR`1`IRV_Z2ET?8;7:MXHn2
-R1
-R2
-w1645704943
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1645704965.000000
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_ALU_32.v|
-!i113 1
-R5
-R6
-ntb_@a@l@u_32
-vtb_Program_Counter
 R0
-!i10b 1
-!s100 VQ]7Z=clU>GGPR:0IAe3o0
-IeBY6NScU47]<fHeAC[D3J0
-R1
-R2
-w1645555999
-8C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v
-FC:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v
+w1645773879
+8.\sign_extend.v
+F.\sign_extend.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohamed Ezzat/Desktop/MIPS Project/tb_Program_Counter.v|
+!s108 1645860997.000000
+!s107 .\sign_extend.v|
+!s90 .\sign_extend.v|
 !i113 1
-R5
-R6
-ntb_@program_@counter
+R3
+vtb_ALU_32
+!s110 1645866465
+!i10b 1
+!s100 Hl;lE5S9E<8@[F[bS;zE91
+ImA6AU@E1MS?Ofnm99Q5Zc0
+R1
+R0
+w1645861474
+8C:/Users/Mohamed Ezzat/Desktop/MIPS/tb_ALU_32.v
+FC:/Users/Mohamed Ezzat/Desktop/MIPS/tb_ALU_32.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1645866465.000000
+!s107 C:/Users/Mohamed Ezzat/Desktop/MIPS/tb_ALU_32.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Mohamed Ezzat/Desktop/MIPS/tb_ALU_32.v|
+!i113 1
+o-work work
+R3
+ntb_@a@l@u_32

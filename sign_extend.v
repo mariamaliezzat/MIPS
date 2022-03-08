@@ -5,7 +5,6 @@ module sign_extend(
 always@(*)
 begin
 
-
 SignImm={{16{Instr[15]}},Instr};
 
 

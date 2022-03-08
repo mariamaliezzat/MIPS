@@ -1,0 +1,237 @@
+$date
+	Sat Feb 26 12:24:29 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb_ALU_32 $end
+$var reg 32 ! tb_Src1 [31:0] $end
+$var reg 32 " tb_Src2 [31:0] $end
+$var reg 3 # tb_ALU_Control [2:0] $end
+$var wire 1 $ tb_ALU_Result [31] $end
+$var wire 1 % tb_ALU_Result [30] $end
+$var wire 1 & tb_ALU_Result [29] $end
+$var wire 1 ' tb_ALU_Result [28] $end
+$var wire 1 ( tb_ALU_Result [27] $end
+$var wire 1 ) tb_ALU_Result [26] $end
+$var wire 1 * tb_ALU_Result [25] $end
+$var wire 1 + tb_ALU_Result [24] $end
+$var wire 1 , tb_ALU_Result [23] $end
+$var wire 1 - tb_ALU_Result [22] $end
+$var wire 1 . tb_ALU_Result [21] $end
+$var wire 1 / tb_ALU_Result [20] $end
+$var wire 1 0 tb_ALU_Result [19] $end
+$var wire 1 1 tb_ALU_Result [18] $end
+$var wire 1 2 tb_ALU_Result [17] $end
+$var wire 1 3 tb_ALU_Result [16] $end
+$var wire 1 4 tb_ALU_Result [15] $end
+$var wire 1 5 tb_ALU_Result [14] $end
+$var wire 1 6 tb_ALU_Result [13] $end
+$var wire 1 7 tb_ALU_Result [12] $end
+$var wire 1 8 tb_ALU_Result [11] $end
+$var wire 1 9 tb_ALU_Result [10] $end
+$var wire 1 : tb_ALU_Result [9] $end
+$var wire 1 ; tb_ALU_Result [8] $end
+$var wire 1 < tb_ALU_Result [7] $end
+$var wire 1 = tb_ALU_Result [6] $end
+$var wire 1 > tb_ALU_Result [5] $end
+$var wire 1 ? tb_ALU_Result [4] $end
+$var wire 1 @ tb_ALU_Result [3] $end
+$var wire 1 A tb_ALU_Result [2] $end
+$var wire 1 B tb_ALU_Result [1] $end
+$var wire 1 C tb_ALU_Result [0] $end
+$var wire 1 D tb_Zero_Flag $end
+
+$scope module DUT $end
+$var wire 1 E Src1 [31] $end
+$var wire 1 F Src1 [30] $end
+$var wire 1 G Src1 [29] $end
+$var wire 1 H Src1 [28] $end
+$var wire 1 I Src1 [27] $end
+$var wire 1 J Src1 [26] $end
+$var wire 1 K Src1 [25] $end
+$var wire 1 L Src1 [24] $end
+$var wire 1 M Src1 [23] $end
+$var wire 1 N Src1 [22] $end
+$var wire 1 O Src1 [21] $end
+$var wire 1 P Src1 [20] $end
+$var wire 1 Q Src1 [19] $end
+$var wire 1 R Src1 [18] $end
+$var wire 1 S Src1 [17] $end
+$var wire 1 T Src1 [16] $end
+$var wire 1 U Src1 [15] $end
+$var wire 1 V Src1 [14] $end
+$var wire 1 W Src1 [13] $end
+$var wire 1 X Src1 [12] $end
+$var wire 1 Y Src1 [11] $end
+$var wire 1 Z Src1 [10] $end
+$var wire 1 [ Src1 [9] $end
+$var wire 1 \ Src1 [8] $end
+$var wire 1 ] Src1 [7] $end
+$var wire 1 ^ Src1 [6] $end
+$var wire 1 _ Src1 [5] $end
+$var wire 1 ` Src1 [4] $end
+$var wire 1 a Src1 [3] $end
+$var wire 1 b Src1 [2] $end
+$var wire 1 c Src1 [1] $end
+$var wire 1 d Src1 [0] $end
+$var wire 1 e Src2 [31] $end
+$var wire 1 f Src2 [30] $end
+$var wire 1 g Src2 [29] $end
+$var wire 1 h Src2 [28] $end
+$var wire 1 i Src2 [27] $end
+$var wire 1 j Src2 [26] $end
+$var wire 1 k Src2 [25] $end
+$var wire 1 l Src2 [24] $end
+$var wire 1 m Src2 [23] $end
+$var wire 1 n Src2 [22] $end
+$var wire 1 o Src2 [21] $end
+$var wire 1 p Src2 [20] $end
+$var wire 1 q Src2 [19] $end
+$var wire 1 r Src2 [18] $end
+$var wire 1 s Src2 [17] $end
+$var wire 1 t Src2 [16] $end
+$var wire 1 u Src2 [15] $end
+$var wire 1 v Src2 [14] $end
+$var wire 1 w Src2 [13] $end
+$var wire 1 x Src2 [12] $end
+$var wire 1 y Src2 [11] $end
+$var wire 1 z Src2 [10] $end
+$var wire 1 { Src2 [9] $end
+$var wire 1 | Src2 [8] $end
+$var wire 1 } Src2 [7] $end
+$var wire 1 ~ Src2 [6] $end
+$var wire 1 !! Src2 [5] $end
+$var wire 1 "! Src2 [4] $end
+$var wire 1 #! Src2 [3] $end
+$var wire 1 $! Src2 [2] $end
+$var wire 1 %! Src2 [1] $end
+$var wire 1 &! Src2 [0] $end
+$var wire 1 '! ALU_Control [2] $end
+$var wire 1 (! ALU_Control [1] $end
+$var wire 1 )! ALU_Control [0] $end
+$var reg 32 *! ALU_Result [31:0] $end
+$var wire 1 D Zero_Flag $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 *!
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+1D
+0)!
+0(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+$end
+#100
+b1010 !
+b1 "
+1&!
+1c
+1a
+b1 *!
+0D
+1C

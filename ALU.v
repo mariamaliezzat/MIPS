@@ -11,10 +11,10 @@ always@(*)
 begin
 case(ALU_Control)
 3'b000 : begin
-         ALU_Result = Src1 && Src2 ;
+         ALU_Result = Src1 & Src2 ;
          end 
 3'b001 : begin
-         ALU_Result = Src1 || Src2 ;
+         ALU_Result = Src1 | Src2 ;
          end
 3'b010 : begin
          ALU_Result = Src1 + Src2 ;
