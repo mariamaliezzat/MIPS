@@ -1,18 +1,20 @@
 module Program_Counter (
                         input clk,
-                        input rst_b,
-                        output reg [31:0] PC
+                        input rst,
+                        input   wire [31:0] PC_in,
+                        output  reg [31:0] PC
 
 );
 
-always@(posedge clk)
-begin
+always@(posedge clk, negedge rst)
+    begin
 
-if(rst_b)
-PC <= PC + 4;
-else
-PC <= 0;
-
-end
+        if (!rst) begin
+            PC <= 32'b0;
+        end
+        else    begin
+            PC <= PC_in;
+        end
+    end
 
 endmodule
